@@ -11,7 +11,7 @@
                 本博客由nodejs开发,架构为Node+Express+Mongodb,它是一门很优秀的语言,有着活跃的社区,现在的它无论是在前端还是在后端都有着它的身影,我相信node是未来的趋势.当然还有很多人对它有种不朽的态度,甚至有人认为它的活动范围只是在前端;但事实并不是这样,现在的它无论是在前端还是在后端都有着不俗的表现.</h5>
             <h3>About Framework</h3>
             <h5>Framework : Nodejs+Express+Mongodb+Vue</h5>
-            <h5>Github : <a href="https://github.com/linkenliu/blog_express_angular.git" target="_blank">https://github.com/linkenliu/blog_express_angular.git</a>
+            <h5>Github : <a href="https://github.com/linkenliu/blog_vue.git" target="_blank">https://github.com/linkenliu/blog_vue.git</a>
             </h5>
 
 
