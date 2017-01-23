@@ -11,7 +11,7 @@
                         <span>{{item.title}}</span>
                     </div>
                     <div class="col-sm-2 post-date">
-                        <span>01-11 12:32</span>
+                        <span>{{item.create_date | converDate}}</span>
                     </div>
                  </a>
                </div>

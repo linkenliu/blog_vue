@@ -4,7 +4,7 @@
          <div  class="col-sm-9 left-container">
               <div style="text-align:center">
                   <h2>{{post.title}}</h2>
-                  <span>发布于:{{post.create_date}}</span>&nbsp;&nbsp;&nbsp;<span>浏览/评论:{{post.view_count}}/{{post.comment_count}}</span>
+                  <span>发布于:{{post.create_date | converDate}}</span>&nbsp;&nbsp;&nbsp;<span>浏览/评论:{{post.view_count}}/{{post.comment_count}}</span>
               </div>
               <hr/>
               <div v-html="post.content"></div>

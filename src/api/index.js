@@ -1,9 +1,9 @@
 import axios from 'axios'
 
-const baseUrl = 'http://139.196.32.78:7000/home/v1'
+const baseUrl = 'http://127.0.0.1:7000/home/v1'
 export default {
   getPostList (params) {
-    return axios.get(`${baseUrl}/post?type=${params.type}`)
+    return axios.get(`${baseUrl}/post?type=${params.type}&pageIndex=${params.pageIndex}&pageSize=${params.pageSize}`)
   },
   getChannel (params) {
     return axios.get(`${baseUrl}/channel`)

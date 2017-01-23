@@ -9,7 +9,7 @@
           <span class="icon-bar"></span>
         </button>
         <div class="logoDic">
-      <a class="navbar-brand" class="logo" "><img src="./../assets/piezi.jpg" style="margin-top: -12px;margin-left: -20px;max-width: 100%;"></a></div>
+      <a class="logo"><img src="./../assets/piezi.jpg" style="margin-top: -12px;margin-left: -20px;max-width: 100%;"></a></div>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
