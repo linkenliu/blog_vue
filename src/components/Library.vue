@@ -31,10 +31,10 @@
                </router-link >
            </div>
             <div>
-                 <h4>云标签组</h4>
-                 <div v-for="item in channelList" class="item-tag" >
-                     <span>{{item.name}}</span>
-                 </div>
+              <h4>云标签组</h4>
+              <router-link :to="'/tagForPost/'+item._id" v-for="item in channelList" class="item-tag">
+                <span>{{item.name}}</span>
+              </router-link>
             </div>
             <div>
                <h4>其他博客</h4>
